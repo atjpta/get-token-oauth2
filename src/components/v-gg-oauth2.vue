@@ -75,6 +75,7 @@ const onSuccess = (response) => {
     dismissible: true,
   });
   token.value = response.access_token;
+  console.log(response);
   console.log(response.access_token);
 };
 
